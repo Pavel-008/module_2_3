@@ -7,6 +7,9 @@ while b < len(my_list):
         print(my_list[b])
         b += 1
         continue
+    elif my_list[b] == 0:
+        b += 1
+        continue
     elif my_list[b] < 0:
         break
 
